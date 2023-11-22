@@ -1,0 +1,48 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.autocomplete-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.autocomplete-container h2 {
+    text-align: center;
+}
+
+.autocomplete-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.autocomplete-form label {
+    font-weight: bold;
+}
+
+.autocomplete-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.autocomplete-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.autocomplete-form button:hover {
+    background-color: #0056b3;
+}
